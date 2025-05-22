@@ -39,6 +39,8 @@ scikit-learn = ">=1.2.2"
 typer = ">=0.12.3"
 wandb = ">=0.17.5"
 absl-py = ">=1.4.0"
+gdown = "^5.2.0"
+jupyter = "^1.1.1"
 
 [tool.poetry.extras]
 pax = ["paxml", "lingvo", "jax", "jaxlib"]
@@ -68,6 +70,7 @@ python = ">=3.11,<3.12"
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=8.3.2"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
